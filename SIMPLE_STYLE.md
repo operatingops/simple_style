@@ -74,7 +74,7 @@ for user in logged_in_users:
 
 ### Add comments to explain what the code can't
 
-This is a waste of a line:
+This wastes a line:
 
 ```python
 # Iterate through users.
@@ -84,28 +84,32 @@ for user in logged_in_users:
 This is indispensable:
 
 ```python
-CF_STATES = [
-    # Copied from: http://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-describing-stacks.html#w1ab2c15c17c21c13
+CLOUDFORMATION_STATES = [
+    # Copied from: <link to documentation of CloudFormation's states>
     'CREATE_COMPLETE',
     'CREATE_IN_PROGRESS',
     ...
 ]
 ```
 
+If you feel the code is hard to understand without a comment to explain it, consider revising the code before judging
+that you've found an exception to Simple Style's rules.
+
 ## Language Rules
 
-Languages have their own rules. Python has the [PEP8][pep8], Ruby
-has a [community guide][ruby_style]. Use them if the project uses them.
+Languages have their own rules. Python has the [PEP8][pep8], Ruby has a [community guide][ruby_style]. Use them if the
+project uses them.
 
-**Except** the following. Some rules are excessive and we specifically exclude them.
+**Except** the following.
 
-### [PEP8][pep8]'s English style requirements
+### PEP8's [English style requirements][pep8_english]
 
-Programming is a worldwide, multi-lingual practice. English is a big language with a lot of core features and
-learning it is hard. Worse than that, written and spoken English are different. Simple Style removes a burden from
-non-native speakers by only requiring understandable English, not pretty English.
+Understandable English is all that's needed to write comments that [explain what the code can't][comments], which is
+all Simple Style requires.
 
 
-[whitespace]: https://www.python.org/dev/peps/pep-0008/#whitespace-in-expressions-and-statements
+[comments]: #add-comments-to-explain-what-the-code-cant
 [pep8]: https://www.python.org/dev/peps/pep-0008/
+[pep8_english]: https://www.python.org/dev/peps/pep-0008/#comments
 [ruby_style]: https://github.com/bbatsov/ruby-style-guide
+[whitespace]: https://www.python.org/dev/peps/pep-0008/#whitespace-in-expressions-and-statements
