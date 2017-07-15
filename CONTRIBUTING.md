@@ -12,8 +12,6 @@ This guide based on the one in [factory_girl_rails v4.8.0][source]. Thanks Thoug
 
 1. Make your change.
 
-1. Update the version number in `README.md`. Follow [semver](http://semver.org).
-
 1. Push to your fork.
 
    ```shell
