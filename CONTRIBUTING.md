@@ -1,5 +1,7 @@
 # Contributing
 
+This project follows the [Ubuntu Code of Conduct v2.0][conduct]. Thanks Ubuntu!
+
 This guide based on the one in [factory_girl_rails v4.8.0][source]. Thanks Thoughtbot!
 
 1. [Fork and clone the repo](https://help.github.com/articles/fork-a-repo/).
@@ -28,3 +30,5 @@ To increase the chance that your pull request gets accepted:
   check out git's [rebase](https://help.github.com/articles/about-git-rebase/). You can use it to clean up at the end.
 
 [source]: https://github.com/thoughtbot/factory_girl_rails/blob/v4.8.0/CONTRIBUTING.md
+[conduct]: https://www.ubuntu.com/about/about-ubuntu/conduct
+
