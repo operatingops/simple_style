@@ -1,4 +1,4 @@
-# Simple Style 0.1.0
+# Simple Style
 
 Welcome! We'd love for you to contribute, and we want you to be you while you do it.
 
