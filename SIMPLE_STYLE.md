@@ -95,20 +95,13 @@ CLOUDFORMATION_STATES = [
 If you feel the code is hard to understand without a comment to explain it, consider revising the code before judging
 that you've found an exception to Simple Style's rules.
 
-## Language Rules
+## Language-Specific Styles
 
-Languages have their own rules. Python has the [PEP8][pep8], Ruby has a [community guide][ruby_style]. Use them if the
-project uses them.
+Languages and the communities around them sometimes have established styles. Python has the [PEP8][pep8], Ruby has a [community guide][ruby_style]. The patterns they define can make consistency easy. If their styles work for you, use them! **Except** the following:
 
-**Except** the following.
-
-### PEP8's [English style requirements][pep8_english]
-
-Understandable English is all that's needed to write comments that [explain what the code can't][comments], which is
-all Simple Style requires.
+* PEP8's [English style requirements][pep8_english]. Understandable English is all that's needed to write comments that explain what the code can't (see above) and that's all Simple Style requires.
 
 
-[comments]: #add-comments-to-explain-what-the-code-cant
 [pep8]: https://www.python.org/dev/peps/pep-0008/
 [pep8_english]: https://www.python.org/dev/peps/pep-0008/#comments
 [ruby_style]: https://github.com/bbatsov/ruby-style-guide
