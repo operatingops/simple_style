@@ -2,9 +2,11 @@
 
 Welcome! We'd love for you to contribute, and we want you to be you while you do it.
 
-This is a shared project so we need a thin layer of style rules to keep the code easy to use. Just like textbooks use either Metric or Imperial units, but not both, we need enough consistency that we're not all running around calculating how many millimeters are in 7/16ths of an inch.
+We need some style rules to keep our code easy to use. Just like textbooks use either Metric or Imperial units, but not both, we need enough structure that we don't all run around calculating how many millimeters are in 7/16ths of an inch.
 
-## Principle
+We'll keep it simple. 😎
+
+## The Principle
 
 Simple Style is about making code usable. Some choices don't effect usability. Here's an example:
 
@@ -17,7 +19,7 @@ Those extra spaces are a difference in style but they don't make the code harder
 
 Although `['adam']` and `[ 'adam' ]` don't cause a problem on their own, too much variation eventually gets painful. Python's PEP8 has some great [examples of where whitespace can go wrong][whitespace]. Imagine if all the spacing patterns in those examples were present in one project. Try to be consistent.
 
-## Rules
+## Our Rules
 
 Simple Style's rules are simple because even a thousand style rules will leave a million ways to write gross code. It's more important to use good judgement than to chase static analysis errors from a thousand rules.
 
@@ -93,9 +95,7 @@ If you feel the code is hard to understand without a comment to explain it, cons
 
 ## Language-Specific Styles
 
-Languages and the communities around them sometimes have established styles. Python has the [PEP8][pep8], Ruby has a [community guide][ruby_style]. The patterns they define can make consistency easy. If their styles work for you, use them! **Except** the following:
-
-* PEP8's [English style requirements][pep8_english]. Understandable English is all that's needed to write comments that explain what the code can't (see above) and that's all Simple Style requires.
+Languages and the communities around them sometimes have established styles. Python has the [PEP8][pep8], Ruby has a [community guide][ruby_style]. The patterns they define can make consistency easy. If their styles work for you, use them!
 
 
 [pep8]: https://www.python.org/dev/peps/pep-0008/
