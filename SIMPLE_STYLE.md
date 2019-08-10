@@ -82,7 +82,7 @@ This is indispensable:
 
 ```python
 CLOUDFORMATION_STATES = [
-    # Copied from: <link to documentation of CloudFormation's states>
+    # Copied from: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-describing-stacks.html#w2ab1c15c15c17c11
     'CREATE_COMPLETE',
     'CREATE_IN_PROGRESS',
     ...
