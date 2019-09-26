@@ -13,6 +13,8 @@ We'd love for you to contribute, and we want you to be you while you do it. This
   * Make sure it has a non-viral (e.g. no GNU) license that allows you to use it on this project.
   * Credit them where you use their work (e.g. with a link in a comment).
 
+## Code
+
 1. [Fork and clone the repo](https://help.github.com/articles/fork-a-repo/).
 
 1. Create a feature branch:
