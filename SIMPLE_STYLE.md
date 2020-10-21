@@ -4,8 +4,6 @@ Welcome! We'd love for you to contribute, and we want you to be you while you do
 
 We need some style rules to keep our code easy to use. Just like textbooks use either Metric or Imperial units, but not both, we need enough structure that we don't all run around calculating how many millimeters are in 7/16ths of an inch.
 
-We'll keep it simple. 😎
-
 ## The Principle
 
 Simple Style is about making code usable. Some choices don't effect usability. Here's an example:
