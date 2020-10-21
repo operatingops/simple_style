@@ -27,7 +27,41 @@ Languages can be styled differently within projects. E.g. it's ok to indent with
 
 ### Use consistent indentation
 
-Mixed indentations make it easier to get lost. You'll think you're in a condition when really you're in the loop above it, etc.
+Mixed indentations make it easier to get lost.
+
+If you glance too quickly at this JSON object, it might look like there's a person called "robots":
+
+```javascript
+{
+    "people": [
+        "adam",
+        "bob"
+    ],
+        "robots": [
+        "tom_servo",
+        "crow_t_robot"
+    ]
+}
+```
+
+If we make the indentation consistent, it's easy to see that "robots" is actually another array:
+
+```javascript
+{
+    "people": [
+        "adam",
+        "bob"
+    ],
+    "robots": [
+        "tom_servo",
+        "crow_t_robot"
+    ]
+}
+```
+
+The problem is small in a made-up example like this, but it grows with the size of your code. Once you're looking at five screens of text, it's a lot easier to get lost.
+
+Mixed indentations are worst when they happen inside of one file, but they cause similar problems across files. If half your JSON is indented with two space and the other half is indented with four, it's harder to compare them. Try to be consistent everywhere.
 
 ### Use consistent delimiters
 
