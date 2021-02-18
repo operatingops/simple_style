@@ -5,6 +5,6 @@ easy to use. [Check it out!](SIMPLE_STYLE.md)
 
 If you need a style guide for your project, hopefully this will help you.
 
-Need help with this? I'm also [available to consult][consult].
+Need help with this? We're [available to consult][consult].
 
-[consult]: https://operatingops.org/hire-adam/
+[consult]: https://operatingops.com/hire
